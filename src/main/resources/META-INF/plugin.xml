@@ -13,6 +13,8 @@
         <applicationService
                 serviceImplementation="com.github.tiste.responsiveintellijplugin.services.ApplicationEditorFontPreferences"/>
         <applicationService
+                serviceImplementation="com.github.tiste.responsiveintellijplugin.services.ApplicationUIFontPreferences"/>
+        <applicationService
                 serviceImplementation="com.github.tiste.responsiveintellijplugin.services.WindowProjectService"/>
 
         <applicationConfigurable parentId="tools"
